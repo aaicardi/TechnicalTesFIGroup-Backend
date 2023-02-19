@@ -1,0 +1,12 @@
+C:\RepositorioAzure\TechnicalTesFIGroup-Backend\slnTecnicalTest\TecnicalTest.FIGroup.Domain\bin\Debug\net6.0\TecnicalTest.FIGroup.Domain.deps.json
+C:\RepositorioAzure\TechnicalTesFIGroup-Backend\slnTecnicalTest\TecnicalTest.FIGroup.Domain\bin\Debug\net6.0\TecnicalTest.FIGroup.Domain.dll
+C:\RepositorioAzure\TechnicalTesFIGroup-Backend\slnTecnicalTest\TecnicalTest.FIGroup.Domain\bin\Debug\net6.0\ref\TecnicalTest.FIGroup.Domain.dll
+C:\RepositorioAzure\TechnicalTesFIGroup-Backend\slnTecnicalTest\TecnicalTest.FIGroup.Domain\bin\Debug\net6.0\TecnicalTest.FIGroup.Domain.pdb
+C:\RepositorioAzure\TechnicalTesFIGroup-Backend\slnTecnicalTest\TecnicalTest.FIGroup.Domain\obj\Debug\net6.0\TecnicalTest.FIGroup.Domain.csproj.AssemblyReference.cache
+C:\RepositorioAzure\TechnicalTesFIGroup-Backend\slnTecnicalTest\TecnicalTest.FIGroup.Domain\obj\Debug\net6.0\TecnicalTest.FIGroup.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\RepositorioAzure\TechnicalTesFIGroup-Backend\slnTecnicalTest\TecnicalTest.FIGroup.Domain\obj\Debug\net6.0\TecnicalTest.FIGroup.Domain.AssemblyInfoInputs.cache
+C:\RepositorioAzure\TechnicalTesFIGroup-Backend\slnTecnicalTest\TecnicalTest.FIGroup.Domain\obj\Debug\net6.0\TecnicalTest.FIGroup.Domain.AssemblyInfo.cs
+C:\RepositorioAzure\TechnicalTesFIGroup-Backend\slnTecnicalTest\TecnicalTest.FIGroup.Domain\obj\Debug\net6.0\TecnicalTest.FIGroup.Domain.csproj.CoreCompileInputs.cache
+C:\RepositorioAzure\TechnicalTesFIGroup-Backend\slnTecnicalTest\TecnicalTest.FIGroup.Domain\obj\Debug\net6.0\TecnicalTest.FIGroup.Domain.dll
+C:\RepositorioAzure\TechnicalTesFIGroup-Backend\slnTecnicalTest\TecnicalTest.FIGroup.Domain\obj\Debug\net6.0\ref\TecnicalTest.FIGroup.Domain.dll
+C:\RepositorioAzure\TechnicalTesFIGroup-Backend\slnTecnicalTest\TecnicalTest.FIGroup.Domain\obj\Debug\net6.0\TecnicalTest.FIGroup.Domain.pdb

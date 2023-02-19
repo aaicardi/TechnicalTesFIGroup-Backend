@@ -17,7 +17,7 @@
       "applicationUrl": "https://localhost:7150;http://localhost:5150",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development",
-        "FIGROUP_CONNECTION_STRING": "Server=192.168.1.8;Database=DBERP;User Id=user.desarrollo;Password=desarrollo2018;MultipleActiveResultSets=true;encrypt=true;trustServerCertificate=true;"
+        "FIGROUP_CONNECTION_STRING": "Server=192.168.1.8;Database=FIGroupDB;User Id=user.desarrollo;Password=desarrollo2018;MultipleActiveResultSets=true;encrypt=true;trustServerCertificate=true;"
       }
     },
     "IIS Express": {
@@ -26,7 +26,7 @@
       "launchUrl": "swagger",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development",
-        "FIGROUP_CONNECTION_STRING": "Server=192.168.1.8;Database=DBERP;User Id=user.desarrollo;Password=desarrollo2018;MultipleActiveResultSets=true;encrypt=true;trustServerCertificate=true;"
+        "FIGROUP_CONNECTION_STRING": "Server=192.168.1.8;Database=FIGroupDB;User Id=user.desarrollo;Password=desarrollo2018;MultipleActiveResultSets=true;encrypt=true;trustServerCertificate=true;"
       }
     }
   }

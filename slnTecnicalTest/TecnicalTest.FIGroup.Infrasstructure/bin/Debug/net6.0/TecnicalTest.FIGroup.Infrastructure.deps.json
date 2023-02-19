@@ -15,7 +15,8 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.13",
           "Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite": "6.0.13",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.13",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
+          "TecnicalTest.FIGroup.Domain": "1.0.0"
         },
         "runtime": {
           "TecnicalTest.FIGroup.Infrastructure.dll": {}
@@ -617,6 +618,11 @@
             "fileVersion": "4.700.19.56404"
           }
         }
+      },
+      "TecnicalTest.FIGroup.Domain/1.0.0": {
+        "runtime": {
+          "TecnicalTest.FIGroup.Domain.dll": {}
+        }
       }
     }
   },
@@ -1038,6 +1044,11 @@
       "sha512": "sha512-CeWTdRNfRaSh0pm2gDTJFwVaXfTq6Xwv/sA887iwPTneW7oMtMlpvDIO+U60+3GWTB7Aom6oQwv5VZVUhQRdPQ==",
       "path": "system.windows.extensions/4.7.0",
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
+    },
+    "TecnicalTest.FIGroup.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

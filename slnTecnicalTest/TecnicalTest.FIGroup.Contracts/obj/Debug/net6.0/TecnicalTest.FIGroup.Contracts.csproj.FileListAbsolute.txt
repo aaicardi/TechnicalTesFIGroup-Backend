@@ -1,0 +1,12 @@
+C:\RepositorioAzure\TechnicalTesFIGroup-Backend\slnTecnicalTest\TecnicalTest.FIGroup.Contracts\bin\Debug\net6.0\TecnicalTest.FIGroup.Contracts.deps.json
+C:\RepositorioAzure\TechnicalTesFIGroup-Backend\slnTecnicalTest\TecnicalTest.FIGroup.Contracts\bin\Debug\net6.0\TecnicalTest.FIGroup.Contracts.dll
+C:\RepositorioAzure\TechnicalTesFIGroup-Backend\slnTecnicalTest\TecnicalTest.FIGroup.Contracts\bin\Debug\net6.0\ref\TecnicalTest.FIGroup.Contracts.dll
+C:\RepositorioAzure\TechnicalTesFIGroup-Backend\slnTecnicalTest\TecnicalTest.FIGroup.Contracts\bin\Debug\net6.0\TecnicalTest.FIGroup.Contracts.pdb
+C:\RepositorioAzure\TechnicalTesFIGroup-Backend\slnTecnicalTest\TecnicalTest.FIGroup.Contracts\obj\Debug\net6.0\TecnicalTest.FIGroup.Contracts.csproj.AssemblyReference.cache
+C:\RepositorioAzure\TechnicalTesFIGroup-Backend\slnTecnicalTest\TecnicalTest.FIGroup.Contracts\obj\Debug\net6.0\TecnicalTest.FIGroup.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\RepositorioAzure\TechnicalTesFIGroup-Backend\slnTecnicalTest\TecnicalTest.FIGroup.Contracts\obj\Debug\net6.0\TecnicalTest.FIGroup.Contracts.AssemblyInfoInputs.cache
+C:\RepositorioAzure\TechnicalTesFIGroup-Backend\slnTecnicalTest\TecnicalTest.FIGroup.Contracts\obj\Debug\net6.0\TecnicalTest.FIGroup.Contracts.AssemblyInfo.cs
+C:\RepositorioAzure\TechnicalTesFIGroup-Backend\slnTecnicalTest\TecnicalTest.FIGroup.Contracts\obj\Debug\net6.0\TecnicalTest.FIGroup.Contracts.csproj.CoreCompileInputs.cache
+C:\RepositorioAzure\TechnicalTesFIGroup-Backend\slnTecnicalTest\TecnicalTest.FIGroup.Contracts\obj\Debug\net6.0\TecnicalTest.FIGroup.Contracts.dll
+C:\RepositorioAzure\TechnicalTesFIGroup-Backend\slnTecnicalTest\TecnicalTest.FIGroup.Contracts\obj\Debug\net6.0\ref\TecnicalTest.FIGroup.Contracts.dll
+C:\RepositorioAzure\TechnicalTesFIGroup-Backend\slnTecnicalTest\TecnicalTest.FIGroup.Contracts\obj\Debug\net6.0\TecnicalTest.FIGroup.Contracts.pdb

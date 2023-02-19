@@ -12,3 +12,7 @@ C:\RepositorioAzure\TechnicalTesFIGroup-Backend\slnTecnicalTest\TecnicalTest.FIG
 C:\RepositorioAzure\TechnicalTesFIGroup-Backend\slnTecnicalTest\TecnicalTest.FIGroup.Infrasstructure\obj\Debug\net6.0\ref\TecnicalTest.FIGroup.Infrastructure.dll
 C:\RepositorioAzure\TechnicalTesFIGroup-Backend\slnTecnicalTest\TecnicalTest.FIGroup.Infrasstructure\obj\Debug\net6.0\TecnicalTest.FIGroup.Infrastructure.pdb
 C:\RepositorioAzure\TechnicalTesFIGroup-Backend\slnTecnicalTest\TecnicalTest.FIGroup.Infrasstructure\obj\Debug\net6.0\TecnicalTest.FIGroup.Infrastructure.genruntimeconfig.cache
+C:\RepositorioAzure\TechnicalTesFIGroup-Backend\slnTecnicalTest\TecnicalTest.FIGroup.Infrasstructure\bin\Debug\net6.0\TecnicalTest.FIGroup.Domain.dll
+C:\RepositorioAzure\TechnicalTesFIGroup-Backend\slnTecnicalTest\TecnicalTest.FIGroup.Infrasstructure\bin\Debug\net6.0\TecnicalTest.FIGroup.Domain.pdb
+C:\RepositorioAzure\TechnicalTesFIGroup-Backend\slnTecnicalTest\TecnicalTest.FIGroup.Infrasstructure\obj\Debug\net6.0\TecnicalTest.FIGroup.Infrastructure.csproj.AssemblyReference.cache
+C:\RepositorioAzure\TechnicalTesFIGroup-Backend\slnTecnicalTest\TecnicalTest.FIGroup.Infrasstructure\obj\Debug\net6.0\TecnicalTest.FIGroup.Infrastructure.csproj.CopyComplete

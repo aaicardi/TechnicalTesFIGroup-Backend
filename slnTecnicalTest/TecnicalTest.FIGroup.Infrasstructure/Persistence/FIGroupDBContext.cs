@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
 using TecnicalTest.FIGroup.Domain.Entities;
+using TecnicalTest.FIGroup.Infrastructure.Persistence.Seeder;
 
 namespace TecnicalTest.FIGroup.Infrastructure.Persistence;
 
@@ -14,6 +15,7 @@ public class FIGroupDBContext : DbContext
     {
         modelBuilder.ApplyConfigurationsFromAssembly(GetType().Assembly);
         base.OnModelCreating(modelBuilder);
+        modelBuilder.Seed();
     }
 }
 
