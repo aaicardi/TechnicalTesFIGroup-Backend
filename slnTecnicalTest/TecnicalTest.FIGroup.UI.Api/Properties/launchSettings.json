@@ -1,0 +1,33 @@
+﻿{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:33296",
+      "sslPort": 44349
+    }
+  },
+  "profiles": {
+    "TecnicalTest.FIGroup.UI.Api": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:7150;http://localhost:5150",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "FIGROUP_CONNECTION_STRING": "Server=192.168.1.8;Database=DBERP;User Id=user.desarrollo;Password=desarrollo2018;MultipleActiveResultSets=true;encrypt=true;trustServerCertificate=true;"
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "FIGROUP_CONNECTION_STRING": "Server=192.168.1.8;Database=DBERP;User Id=user.desarrollo;Password=desarrollo2018;MultipleActiveResultSets=true;encrypt=true;trustServerCertificate=true;"
+      }
+    }
+  }
+}

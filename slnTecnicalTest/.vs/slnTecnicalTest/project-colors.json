@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "f956e29e-c79f-47b4-88ed-8a87bc01fbc1": {
+      "ProjectGuid": "f956e29e-c79f-47b4-88ed-8a87bc01fbc1",
+      "DisplayName": "TecnicalTest.FIGroup.UI.Api",
+      "ColorIndex": 0
+    },
+    "04dff9c9-2052-4f75-ba1e-195c979ece48": {
+      "ProjectGuid": "04dff9c9-2052-4f75-ba1e-195c979ece48",
+      "DisplayName": "TecnicalTest.FIGroup.Application",
+      "ColorIndex": 1
+    },
+    "9cbe6618-2d67-4a18-9bdc-30623c39fd5d": {
+      "ProjectGuid": "9cbe6618-2d67-4a18-9bdc-30623c39fd5d",
+      "DisplayName": "TecnicalTest.FIGroup.Contracts",
+      "ColorIndex": 2
+    },
+    "bda42dea-1746-443c-b786-c396f87b7e89": {
+      "ProjectGuid": "bda42dea-1746-443c-b786-c396f87b7e89",
+      "DisplayName": "TecnicalTest.FIGroup.Domain",
+      "ColorIndex": 3
+    },
+    "51e27184-0b20-4696-bba2-b753c4f56480": {
+      "ProjectGuid": "51e27184-0b20-4696-bba2-b753c4f56480",
+      "DisplayName": "TecnicalTest.FIGroup.Infrastructure",
+      "ColorIndex": 4
+    },
+    "d755528d-3f13-4c6e-90c1-730b7d4cbd49": {
+      "ProjectGuid": "d755528d-3f13-4c6e-90c1-730b7d4cbd49",
+      "DisplayName": "TecnicalTest.FIGroup.Test",
+      "ColorIndex": 5
+    }
+  },
+  "NextColorIndex": 6
+}
