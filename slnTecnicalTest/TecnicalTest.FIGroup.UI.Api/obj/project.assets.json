@@ -985,7 +985,6 @@
           "Mapster": "7.3.0",
           "MediatR": "10.0.1",
           "MediatR.Extensions.Microsoft.DependencyInjection": "10.0.1",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
           "TecnicalTest.FIGroup.Contracts": "1.0.0",
           "TecnicalTest.FIGroup.Infrastructure": "1.0.0"
         },

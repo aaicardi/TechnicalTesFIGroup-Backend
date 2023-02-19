@@ -16,8 +16,9 @@ public class TasksController : ApiController
     }
 
     [HttpGet]
+    [Route("/GetAllTask")]
     [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(GenericResponseDto<List<TasksDto>>))]
-    public async Task<IActionResult> GetLocales()
+    public async Task<IActionResult> GetAllTask()
     {
         var response = await _sender.Send(new GetAllTasksQuery());
         return response.Match(

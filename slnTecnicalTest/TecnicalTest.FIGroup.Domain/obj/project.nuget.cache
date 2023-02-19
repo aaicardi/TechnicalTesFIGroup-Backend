@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "fc7DKtFjjO596uRaCYAd0f4u2Q52GjS/D/BemuAL1u5Dwm1in2Dmuej9febkZQgHVtAZQEUC1mbfIwcBjJDyHQ==",
+  "success": true,
+  "projectFilePath": "C:\\RepositorioAzure\\TechnicalTesFIGroup-Backend\\slnTecnicalTest\\TecnicalTest.FIGroup.Domain\\TecnicalTest.FIGroup.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Alex.Aicardi\\.nuget\\packages\\fluentvalidation\\11.1.0\\fluentvalidation.11.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
