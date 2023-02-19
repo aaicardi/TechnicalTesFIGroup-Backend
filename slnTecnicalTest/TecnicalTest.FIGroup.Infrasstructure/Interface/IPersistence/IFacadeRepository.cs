@@ -1,7 +1,9 @@
-﻿namespace TecnicalTest.FIGroup.Infrastructure.Interface.IPersistence;
+﻿using TecnicalTest.FIGroup.Infrastructure.Interface.IPersistence.IRepositories;
 
-internal interface IFacadeRepository : IUnitOfWork
+namespace TecnicalTest.FIGroup.Infrastructure.Interface.IPersistence;
+
+public interface IFacadeRepository : IUnitOfWork
 {
-
+    ITasksRepository TasksRepository { get; }
 }
 

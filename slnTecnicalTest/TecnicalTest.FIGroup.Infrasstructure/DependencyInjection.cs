@@ -21,9 +21,9 @@ public static class DependencyInjection
         //& serviceCollection.AddSingleton<IEmailService, EmailService>();
         serviceCollection.AddDbContext<FIGroupDBContext>(x =>
             x.UseSqlServer(
-                "Server=192.168.1.8;Database=FIGroupDB;User Id=user.desarrollo;Password=desarrollo2018;MultipleActiveResultSets=true;encrypt=true;trustServerCertificate=true;",
-               // Environment.GetEnvironmentVariable("FIGROUP_CONNECTION_STRING") ??
-               // string.Empty,
+                //  "Server=192.168.1.8;Database=FIGroupDB;User Id=user.desarrollo;Password=desarrollo2018;MultipleActiveResultSets=true;encrypt=true;trustServerCertificate=true;",
+                Environment.GetEnvironmentVariable("FIGROUP_CONNECTION_STRING") ??
+                string.Empty,
                 o => o.UseNetTopologySuite()));
         var config = TypeAdapterConfig.GlobalSettings;
         config.Scan(Assembly.GetExecutingAssembly());

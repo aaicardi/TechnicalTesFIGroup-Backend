@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="ErrorOr" Version="1.0.0" />
+    <PackageReference Include="MediatR" Version="10.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="5.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.13">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -15,6 +19,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\TecnicalTest.FIGroup.Application\TecnicalTest.FIGroup.Application.csproj" />
+    <ProjectReference Include="..\TecnicalTest.FIGroup.Contracts\TecnicalTest.FIGroup.Contracts.csproj" />
     <ProjectReference Include="..\TecnicalTest.FIGroup.Infrasstructure\TecnicalTest.FIGroup.Infrastructure.csproj" />
   </ItemGroup>
 

@@ -14,7 +14,7 @@ public static class ModelBuilderExtension
             {
                 Id = 1,
                 Description = "Tarea de prueba",
-                Status =  LocaleStatusEnum.Enabled,
+                Status =  true,
                 IsCompleted = false
             }
         );

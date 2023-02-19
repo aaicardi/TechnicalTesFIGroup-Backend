@@ -37,10 +37,10 @@ namespace TecnicalTest.FIGroup.Infrastructure.Migrations
                     b.Property<bool>("IsCompleted")
                         .HasColumnType("bit");
 
-                    b.Property<int>("Status")
+                    b.Property<bool>("Status")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasDefaultValue(1);
+                        .HasColumnType("bit")
+                        .HasDefaultValue(true);
 
                     b.HasKey("Id");
 
@@ -55,7 +55,7 @@ namespace TecnicalTest.FIGroup.Infrastructure.Migrations
                             Id = 1,
                             Description = "Tarea de prueba",
                             IsCompleted = false,
-                            Status = 1
+                            Status = true
                         });
                 });
 #pragma warning restore 612, 618
