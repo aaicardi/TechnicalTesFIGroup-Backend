@@ -870,6 +870,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "ErrorOr": "1.0.0",
           "FluentValidation": "11.1.0"
         },
         "compile": {

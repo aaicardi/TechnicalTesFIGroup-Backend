@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "KFmkFUfkQZO43SMd/t7LeIPkdgyLNcNCahO+mFfB26SroyHapiohQ9zsBUfJScmtCjjVtXutJXk4yge2MM3LWw==",
+  "dgSpecHash": "mCl1RlfPEw593GygDeYC0rCkIfwzDdHy88UXXEg72ZGiYQ59ZLYANwbUXptzJhdK8E3P9EVVdBsIaBjOw/PKjw==",
   "success": true,
   "projectFilePath": "C:\\RepositorioAzure\\TechnicalTesFIGroup-Backend\\slnTecnicalTest\\TecnicalTest.FIGroup.Infrasstructure\\TecnicalTest.FIGroup.Infrastructure.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Alex.Aicardi\\.nuget\\packages\\erroror\\1.0.0\\erroror.1.0.0.nupkg.sha512",
     "C:\\Users\\Alex.Aicardi\\.nuget\\packages\\fluentvalidation\\11.1.0\\fluentvalidation.11.1.0.nupkg.sha512",
     "C:\\Users\\Alex.Aicardi\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Alex.Aicardi\\.nuget\\packages\\mapster\\7.3.0\\mapster.7.3.0.nupkg.sha512",

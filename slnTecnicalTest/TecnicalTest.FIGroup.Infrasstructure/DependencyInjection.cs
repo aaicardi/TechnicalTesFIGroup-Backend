@@ -8,7 +8,9 @@ using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
 
 using TecnicalTest.FIGroup.Infrastructure.Interface.IPersistence;
+using TecnicalTest.FIGroup.Infrastructure.Interface.IPersistence.IRepositories;
 using TecnicalTest.FIGroup.Infrastructure.Persistence;
+using TecnicalTest.FIGroup.Infrastructure.Persistence.Repositories;
 
 namespace TecnicalTest.FIGroup.Infrastructure;
 
@@ -18,9 +20,9 @@ public static class DependencyInjection
     {
         
         serviceCollection.AddScoped<IFacadeRepository, FacadeRepository>();
-        //& serviceCollection.AddSingleton<IEmailService, EmailService>();
+      //   serviceCollection.AddSingleton<ITasksRepository, TasksRepository>();
         serviceCollection.AddDbContext<FIGroupDBContext>(x =>
-            x.UseSqlServer(
+            x.UseSqlServer( 
                 //  "Server=192.168.1.8;Database=FIGroupDB;User Id=user.desarrollo;Password=desarrollo2018;MultipleActiveResultSets=true;encrypt=true;trustServerCertificate=true;",
                 Environment.GetEnvironmentVariable("FIGROUP_CONNECTION_STRING") ??
                 string.Empty,

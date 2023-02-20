@@ -5,6 +5,9 @@ namespace TecnicalTest.FIGroup.Infrastructure.Interface.IPersistence.IRepositori
 
 public interface ITasksRepository : IRepository<Tasks>
 {
-    public IEnumerable<Tasks> GetAllTasks();
+    IEnumerable<Tasks> GetAllTasks();
+    Task<Tasks> CreateTasks(Tasks tasks);
+    Task<Tasks> UpdateTasks(Tasks tasks);
+    Task<Tasks> DeleteTasks(int tasksId);
 }
 

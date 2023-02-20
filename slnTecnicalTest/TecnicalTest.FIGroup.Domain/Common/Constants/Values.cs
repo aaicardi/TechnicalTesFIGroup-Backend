@@ -14,6 +14,7 @@ public static class Values
 
     public const string UsaPhoneCode = "+1 ";
     public const string Errors = "errors";
+    public const string SuccessMessages = "successfull operation";
     public const string ValidationErrorMessage = "One or more validation failures have occurred.";
     public const string ValidationErrorTitle = "Entity.ValidationProblems";
     public const string ValidationErrorType = "https://www.rfc-editor.org/rfc/rfc7231#section-6.5.1";

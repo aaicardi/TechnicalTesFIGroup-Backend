@@ -7,19 +7,22 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TecnicalTest.FIGroup.UI", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TecnicalTest.FIGroup.Core", "TecnicalTest.FIGroup.Core", "{DBB2489C-8536-4235-A092-958B42838A4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TecnicalTest.FIGroup.UI.Api", "TecnicalTest.FIGroup.UI.Api\TecnicalTest.FIGroup.UI.Api.csproj", "{F956E29E-C79F-47B4-88ED-8A87BC01FBC1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TecnicalTest.FIGroup.UI.Api", "TecnicalTest.FIGroup.UI.Api\TecnicalTest.FIGroup.UI.Api.csproj", "{F956E29E-C79F-47B4-88ED-8A87BC01FBC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TecnicalTest.FIGroup.Application", "TecnicalTest.FIGroup.Application\TecnicalTest.FIGroup.Application.csproj", "{04DFF9C9-2052-4F75-BA1E-195C979ECE48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TecnicalTest.FIGroup.Application", "TecnicalTest.FIGroup.Application\TecnicalTest.FIGroup.Application.csproj", "{04DFF9C9-2052-4F75-BA1E-195C979ECE48}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BDA42DEA-1746-443C-B786-C396F87B7E89} = {BDA42DEA-1746-443C-B786-C396F87B7E89}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TecnicalTest.FIGroup.Contracts", "TecnicalTest.FIGroup.Contracts\TecnicalTest.FIGroup.Contracts.csproj", "{9CBE6618-2D67-4A18-9BDC-30623C39FD5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TecnicalTest.FIGroup.Contracts", "TecnicalTest.FIGroup.Contracts\TecnicalTest.FIGroup.Contracts.csproj", "{9CBE6618-2D67-4A18-9BDC-30623C39FD5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TecnicalTest.FIGroup.Domain", "TecnicalTest.FIGroup.Domain\TecnicalTest.FIGroup.Domain.csproj", "{BDA42DEA-1746-443C-B786-C396F87B7E89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TecnicalTest.FIGroup.Domain", "TecnicalTest.FIGroup.Domain\TecnicalTest.FIGroup.Domain.csproj", "{BDA42DEA-1746-443C-B786-C396F87B7E89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TecnicalTest.FIGroup.Infrastructure", "TecnicalTest.FIGroup.Infrasstructure\TecnicalTest.FIGroup.Infrastructure.csproj", "{51E27184-0B20-4696-BBA2-B753C4F56480}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TecnicalTest.FIGroup.Infrastructure", "TecnicalTest.FIGroup.Infrasstructure\TecnicalTest.FIGroup.Infrastructure.csproj", "{51E27184-0B20-4696-BBA2-B753C4F56480}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TecnicalTest.FIGroup.Test", "TecnicalTest.FIGroup.Test", "{B6436208-975F-4C2A-B76C-14E1D26D4BC2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TecnicalTest.FIGroup.Test", "TecnicalTest.FIGroup.Test\TecnicalTest.FIGroup.Test.csproj", "{D755528D-3F13-4C6E-90C1-730B7D4CBD49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TecnicalTest.FIGroup.Test", "TecnicalTest.FIGroup.Test\TecnicalTest.FIGroup.Test.csproj", "{D755528D-3F13-4C6E-90C1-730B7D4CBD49}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
