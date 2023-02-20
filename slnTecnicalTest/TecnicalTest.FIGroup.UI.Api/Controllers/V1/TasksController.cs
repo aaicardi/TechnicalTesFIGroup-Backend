@@ -1,6 +1,5 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
-
 using TecnicalTest.FIGroup.Application.Services.Tasks.Handlers.CreateTasks;
 using TecnicalTest.FIGroup.Application.Services.Tasks.Handlers.DeleteTasks;
 using TecnicalTest.FIGroup.Application.Services.Tasks.Handlers.UpdateTask;
@@ -57,7 +56,7 @@ public class TasksController : ApiController
         );
     }
 
-    [HttpDelete("/{tasksId}/delete-tasks")]
+    [HttpDelete("/{tasksId:int}/delete-tasks")]
     [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(ResponseDto))]
     [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(ValidationModelResponseDto))]
     [ProducesResponseType(StatusCodes.Status404NotFound, Type = typeof(ValidationModelResponseDto))]

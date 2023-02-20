@@ -36,15 +36,15 @@ public class TasksRepository : Repository<Tasks>, ITasksRepository
 
     public async Task<Tasks> DeleteTasks(int tasksId)
     {
-        var result = _dbContext.Task.FirstOrDefault(x => x.Id.Equals(tasksId));
+        var result = _dbContext.Task.FirstOrDefault(x => x.Id.Equals(tasksId) && x.Status.Equals(true));
         if (result != null)
         {
             result.Status = false;
             _dbContext.Task.Update(result);
             await _dbContext.SaveChangesAsync();
-            
+            return result;
         }
-        return result;
+        return new Tasks();
     }
 
 }

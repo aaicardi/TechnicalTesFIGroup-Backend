@@ -3,6 +3,7 @@ using MediatR;
 using TecnicalTest.FIGroup.Contracts.Dtos;
 using TecnicalTest.FIGroup.Domain.Common.Constants;
 using TecnicalTest.FIGroup.Infrastructure.Interface.IPersistence;
+using TecnicalTest.FIGroup.Application.Common.Errors;
 
 namespace TecnicalTest.FIGroup.Application.Services.Tasks.Handlers.DeleteTasks;
 
@@ -17,11 +18,19 @@ public class DeleteTasksCommandHandler : IRequestHandler<DeleteTasksCommand, Err
 
     public async Task<ErrorOr<ResponseDto>> Handle(DeleteTasksCommand request, CancellationToken cancellationToken)
     {
-         var result = await _facadeRepository.TasksRepository.DeleteTasks(request.TasksId);
-        if (result != null)
-            return new ResponseDto(Values.SuccessMessages);
-        else
-            return new ResponseDto(Values.Errors);
+        try
+        {
+            var result = await _facadeRepository.TasksRepository.DeleteTasks(request.TasksId);
+            if (result.Id != 0)
+                return new ResponseDto(Values.SuccessMessages);
+            else
+                return Errors.Tasks.TasksNotFound(string.Empty);
+        }
+        catch (Exception ex)
+        {
+            return Errors.Tasks.TasksFailed(ex.Message);
+        }
+   
     }
 
 
