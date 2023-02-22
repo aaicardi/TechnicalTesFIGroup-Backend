@@ -6,6 +6,7 @@ using TecnicalTest.FIGroup.UI.Api.Extensions;
 
 
 IdentityModelEventSource.ShowPII = true;
+var MyAllowSpecificOrigins = "corsPolicy";
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -17,7 +18,15 @@ var builder = WebApplication.CreateBuilder(args);
     builder.Services.ConfigureApiVersioning();
     builder.Services.ConfigureControllers();
 
-
+    builder.Services.AddCors(options =>
+    {
+        options.AddPolicy(MyAllowSpecificOrigins,
+            p =>
+             p.WithOrigins("*")
+            .AllowAnyMethod()
+            // .SetIsOriginAllowed(origin => true)
+            .AllowAnyHeader());
+    });
 
     builder.Services.AddEndpointsApiExplorer();
     builder.Services.ConfigureSwagger();
@@ -33,6 +42,7 @@ var app = builder.Build();
 
     app.UseHttpsRedirection();
     app.UseAuthentication();
+    app.UseCors(MyAllowSpecificOrigins);
     app.UseAuthorization();
     app.MapControllers();
     app.Run();
