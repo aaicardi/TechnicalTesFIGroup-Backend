@@ -16,6 +16,7 @@ public class GetAllTasksQueryHandler : IRequestHandler<GetAllTasksQuery, ErrorOr
     {
         _facadeRepository = facadeRepository;
         _mapper = mapper;
+
     }
 
 
