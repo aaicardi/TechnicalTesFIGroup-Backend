@@ -39,18 +39,6 @@ public class GetAllTasksQueryHandlerTest
           );
     }
 
-    public static Mapper GetMapper()
-    {
-        var config = TypeAdapterConfig.GlobalSettings;
-        config.Scan(typeof(TasksDto).Assembly);
-        return new Mapper(config);
-    }
-
-    private void inizialitation(IMapper mapper)
-    {
-        var sourceObject = mapper.Adapt<TasksDto>();
-    }
-
 
     [Test]
     [Author("Jhoel Aicardi")]
