@@ -6,13 +6,9 @@ using Moq;
 
 using NUnit.Framework;
 
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
-using TecnicalTest.FIGroup.Application.Services.Tasks.Handlers.CreateTasks;
 using TecnicalTest.FIGroup.Application.Services.Tasks.Queries.GetAllTasks;
 using TecnicalTest.FIGroup.Contracts.Dtos;
 using TecnicalTest.FIGroup.Domain.Entities;
@@ -50,6 +46,11 @@ public class GetAllTasksQueryHandlerTest
         return new Mapper(config);
     }
 
+    private void inizialitation(IMapper mapper)
+    {
+        var sourceObject = mapper.Adapt<TasksDto>();
+    }
+
 
     [Test]
     [Author("Jhoel Aicardi")]
@@ -76,8 +77,7 @@ public class GetAllTasksQueryHandlerTest
         var result = await service.Handle(null,new System.Threading.CancellationToken());
 
         // Assert
-        Assert.AreEqual(true, result.IsError);
-       // this.mockRepository.VerifyAll();
+        Assert.AreEqual(true, result.IsError);   
     }
 
 
@@ -118,23 +118,29 @@ public class GetAllTasksQueryHandlerTest
         };
 
 
+        List<TasksDto> list = new()
+        {
+            new TasksDto()
+            {
+                Id = 1,
+                Description = "tarea1"
+            },
+            new TasksDto()
+            {
+                Id = 2,
+                Description = "tarea2"
+            }
+        };
 
-
-        this.mockFacadeRepository.Setup(s => s.TasksRepository.GetAllTasks()).Returns(new List<Tasks>());
-        //GetMapper();
-        //mockMapper.Setup(
-        //         x => x.Map<List<Tasks>, List<TasksDto>>(It.Is<List<Tasks>>(a => a.Count > 1)))
-        //    .Returns(lst);
-
-        //mockMapper.Setup(
-        //     x => x.Map<List<TasksDto>, List<Task>>(It.Is<List<TasksDto>>(a => a.Count > 1)))
-        //    .Returns(new List<Task>());
-
+        this.mockFacadeRepository.Setup(s => s.TasksRepository.GetAllTasks()).Returns(dtos);
+        mockMapper.Setup(
+           x =>     
+           x.Map<List<TasksDto>>(dtos))
+      .Returns(list);
         // Act
         var result = await service.Handle(null, new System.Threading.CancellationToken());
-
         // Assert
-        Assert.AreEqual(true, true); 
+        Assert.AreEqual(false, result.IsError); 
     }
 }
 
